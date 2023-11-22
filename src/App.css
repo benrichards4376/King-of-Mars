@@ -60,5 +60,6 @@ body {
   @media (max-width: 768px) {
     padding: 10px; /* Adjust padding for smaller screens */
     flex-direction: column; /* Stack items vertically on smaller screens */
+    font-size: 2vw;
   }
 }
