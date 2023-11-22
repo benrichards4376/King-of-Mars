@@ -19,7 +19,7 @@ body {
   height: auto;
   text-shadow: 0 0 10px rgba(249, 246, 246, 0.8), 0 0 20px rgba(183, 37, 37, 0.8), 0 0 30px rgba(247, 245, 245, 0.8);
   @media (max-width: 768px) {
-    width: 40%;
+    width: 60%;
   }
 }
 
@@ -51,7 +51,8 @@ body {
   font-size: 2vw;
   text-shadow: 0 0 10px rgba(242, 238, 238, 0.8), 0 0 20px rgba(183, 37, 37, 0.8), 0 0 30px rgba(215, 37, 37, 0.8);
   @media (max-width: 768px) {
-    font-size: 1vw;
+    font-size: 2vw;
+    padding: 10px;
   }
 }
 
