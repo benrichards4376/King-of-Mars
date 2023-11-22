@@ -36,7 +36,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Center vertically within the viewport */
+  height: 100vh;
 }
 
 .App-header {
@@ -62,12 +62,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+  flex-wrap: wrap;
 
-  /* Media query for screens with an average size of phones (up to 768 pixels) */
   @media (max-width: 768px) {
-    padding: 10px; /* Adjust padding for smaller screens */
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    padding: 10px;
+    flex-direction: column;
     font-size: 2vw;
   }
 }
