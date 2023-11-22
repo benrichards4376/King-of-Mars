@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 import king from "./assets/king.jpg";
-import Favicon from "react-favicon";
+
 function App() {
   return (
     <div className="App">
-      <Favicon url="/assets/mars.png"/>
       <header className="App-header">
         <h1>Long Live the King of Mars!</h1>
       </header>
